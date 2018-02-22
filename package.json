@@ -1,0 +1,26 @@
+{
+  "name": "test_esame_backend",
+  "version": "1.0.0",
+  "description": "## Installation",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "npm_exam_package": "^1.1.5",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviatorix/reviewed_exam.git"
+  },
+  "author": "Daviano Amarù <davianoamaru@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviatorix/reviewed_exam/issues"
+  },
+  "homepage": "https://github.com/aviatorix/reviewed_exam#readme"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "npm_exam_package",
+  "version": "1.1.4",
+  "description": "Exam Back_end 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Daviano Amarù <davianoamaru@gmail.com>",
+  "license": "MIT"
+}
