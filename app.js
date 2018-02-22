@@ -1,12 +1,12 @@
 var express = require('express');
-var app = express();
+
 var bodyParser = require('body-parser');
-
-var users = require('./routes/users');
-
+var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+
+var users = require('./routes/users');
 
 app.use('/users', users);
 
